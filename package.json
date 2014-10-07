@@ -1,6 +1,6 @@
 {
   "name": "mongoose-to-ui-grid",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "main": "./lib/index.js",
   "description": "Mongoose plugin to map mongoose schema to ui-grid columns definition",
   "homepage": "https://github.com/valorkin/mongoose-to-ui-grid",
@@ -10,7 +10,17 @@
     "email": "valorkin@gmail.com",
     "url": "https://github.com/valorkin"
   },
-  "keywords": ["mongodb", "mongoose", "model", "schema", "angular", "angular-ui", "ui-grid", "angular-ui-grid", "uiGrid"],
+  "keywords": [
+    "mongodb",
+    "mongoose",
+    "model",
+    "schema",
+    "angular",
+    "angular-ui",
+    "ui-grid",
+    "angular-ui-grid",
+    "uiGrid"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/valorkin/mongoose-to-ui-grid"
@@ -24,7 +34,8 @@
     "jshint": "gulp lint"
   },
   "dependencies": {
-    "lodash": "2.*"
+    "lodash": "2.*",
+    "mongoose-schema-utils": "*"
   },
   "peerDependencies": {
     "mongoose": "*"
