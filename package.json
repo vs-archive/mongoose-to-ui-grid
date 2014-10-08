@@ -1,6 +1,6 @@
 {
   "name": "mongoose-to-ui-grid",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "main": "./lib/index.js",
   "description": "Mongoose plugin to map mongoose schema to ui-grid columns definition",
   "homepage": "https://github.com/valorkin/mongoose-to-ui-grid",
